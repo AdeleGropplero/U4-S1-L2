@@ -31,7 +31,7 @@ public class Main {
 
         Es3 e3 = new Es3();
 
-        //----------------------------------
+        //-----------------------------------
 
         Es4 e4 = new Es4();
         System.out.println("inserisci un numero per vedere il conto alla rovescia:");
