@@ -1,5 +1,7 @@
 import es1.Es1;
 import es2.Es2;
+import es3.Es3;
+import es4.Es4;
 
 import java.util.Scanner;
 
@@ -18,10 +20,22 @@ public class Main {
         int insertYear = sc.nextInt();
         e1.annoBisestile(insertYear);
 
+        //----------------------------------
 
         Es2 e2 = new Es2();
         System.out.println("inserisci un numero da 0 a 3:");
         int insertnum = sc.nextInt();
         e2.numToLetters(insertnum);
+
+        //----------------------------------
+
+        Es3 e3 = new Es3();
+
+        //----------------------------------
+
+        Es4 e4 = new Es4();
+        System.out.println("inserisci un numero per vedere il conto alla rovescia:");
+        int insertnum2 = sc.nextInt();
+        e4.countReverse(insertnum2);
     }
 }
